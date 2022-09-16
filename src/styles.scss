@@ -1,1 +1,103 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+Bhai+2&family=Exo+2:ital,wght@1,700&family=Kanit:wght@300&family=Libre+Baskerville&family=Lora&family=MuseoModerno:wght@500&family=Neuton&family=Nunito+Sans:wght@300&family=Open+Sans:wght@500&family=Source+Sans+Pro&family=Tai+Heritage+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+// Nav Component
+
+header {
+    background-color: black;
+    // background: #FFFFFF;
+    width: 100%;
+    height: 4em;
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        padding: 1.1em 0.8em;
+
+        .ul-flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 2em;
+
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    // color: #0A0411;
+                    color: #ffffff;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+                    text-align: center;
+                }
+            }
+        }
+
+        .nav-btns {
+            gap: 0.2rem;
+            display: flex;
+            align-items: center;
+
+            .ri-account-circle-line {
+                margin: 0px 0.3em 0px 0px;
+            }
+
+           .ri-shopping-cart-2-line{
+            margin: 0px 0.3em 0px 0px;
+        }
+
+            .login-btn {
+                width: 6.1em;
+                height: 2.8em;
+                background: #4BBF73;
+                border-radius: 3.37538px;
+                color: #FFFFFF;
+                padding: 0 1.3em;
+                outline: none;
+                border: none;
+                font-family: 'Hind';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 0.9em;
+                line-height: 1.4em;
+                text-align: center;
+                text-transform: capitalize;
+            }
+
+            .buy-btn {
+                width: 8.8em;
+                height: 2.8em;
+                background: #6827AB;
+                border-radius: 3.37538px;
+                color: #FFFFFF;
+                outline: none;
+                border: none;
+                font-family: 'Hind';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 0.9em;
+                line-height: 1.4em;
+                text-align: center;
+                text-transform: capitalize;
+                padding: 0 1.3em;
+
+            }
+
+        }
+    }
+}
