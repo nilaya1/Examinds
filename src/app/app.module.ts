@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RequestComponent } from './request/request.component';
+import { RequestComponent } from './login/login.component';
 
 @NgModule({
   declarations: [

@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-request',
-  templateUrl: './request.component.html',
-  styleUrls: ['./request.component.scss']
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.scss']
 })
 export class RequestComponent implements OnInit {
 
