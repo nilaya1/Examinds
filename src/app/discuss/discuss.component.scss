@@ -10,3 +10,94 @@
         text-align: center;
     }
 }
+.discuss-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #E7E7E7;
+    height: 100vh;
+
+    .discuss-createpoll{
+       margin-top: 3rem;
+    }
+    .pollitems{
+        
+        li{
+            list-style: none;
+        }
+        ul{
+            padding: 2rem;
+        }
+    }
+    .discuss-display{
+       display: flex;
+       align-items: center;
+       
+    .inputs{
+       
+        .inputs1{
+            margin-top: 5rem;
+       display: flex;
+       padding: 2.2rem;
+       background-color: #ffffff;
+       border: 1px solid #E7E7E7;
+       border-radius: 5px;
+       width:30rem;
+       
+       
+        }
+        input{
+            width: 23rem;
+            height: 2rem;
+            padding: 1rem;
+            outline: none;
+            font-size: 0.9rem;
+        }
+    }
+    .discuss-review{
+        margin-top: 4rem;
+        background-color: #ffffff;
+        border: 1px solid #E7E7E7;
+        border-radius: 5px;
+        padding: 2rem;
+        width:30rem;
+        
+
+        .review1{
+            display: flex;
+            justify-content: baseline;
+            mark{
+                padding: 2px;
+                background-color: rgb(84, 153, 84);
+                color: white;
+            }
+            h2{
+                font-size: 1rem;
+            }
+        }
+        
+    }
+    .riew-media{
+        display: flex;
+        justify-content: space-around;
+        width: 10rem;
+        margin-top: 2rem;
+    }
+}
+.discuss-filter{
+    padding: 2.5rem;
+    background-color: #ffffff;
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+    li{
+        list-style: none;
+    }
+    h2{
+        padding: 1rem;
+    }
+    label{
+        padding: 5px;
+    }
+}
+
+}
