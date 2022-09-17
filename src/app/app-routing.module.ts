@@ -5,7 +5,7 @@ import { DiscussComponent } from './discuss/discuss.component';
 import { HomeComponent } from './home/home.component';
 import { TestboardComponent } from './testboard/testboard.component';
 const routes: Routes = [
-  {path:'login', component:RequestComponent},
+  {path:"request", component:RequestComponent},
   {path:"", component:HomeComponent},
   {path:"discuss", component:DiscussComponent},
   {path:"testboard", component:TestboardComponent},
