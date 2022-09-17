@@ -1,0 +1,36 @@
+.AfterExamContainer{
+    margin:6em;
+    text-align:center;
+    border:2px solid #6827AB;
+    padding:3em;
+    border-radius:1em;
+    table,th,td{
+      margin:auto;
+      padding:1em;
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th{
+      background-color:#ebebe0;
+    }
+    .btnGroup{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:0.4em;
+      .back{
+        background-color:#ac00e6;
+        padding:0.5em;
+        border-radius:0.4em;
+        border:none;
+        color:white;
+      }
+      .Next{
+        background-color: #00cc00;
+        padding:0.5em;
+        border-radius:0.4em;
+        border:none;
+        color:white;
+      }
+    }
+  }
