@@ -23,10 +23,10 @@ header {
         justify-content: space-around;
         align-items: center;
         flex-direction: row;
-        padding: 1em;
+        padding: em;
         .ul-flex {
             display: flex;
-            flex-direction: row;
+           /*  flex-direction: row; */
             justify-content: space-between;
             gap: 2em;
 
@@ -130,3 +130,270 @@ header {
     }
 
 }
+
+/* ================== Solution-Navbar =================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+Bhai+2&family=Exo+2:ital,wght@1,700&family=Kanit:wght@300&family=Libre+Baskerville&family=Lora&family=MuseoModerno:wght@500&family=Neuton&family=Nunito+Sans:wght@300&family=Open+Sans:wght@500&family=Source+Sans+Pro&family=Tai+Heritage+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+//  Component
+
+header {
+    background-color: black;
+    // background: #FFFFFF;
+    width: 100%;
+}
+
+.sol-nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 1.75em;
+    font-size: 12px;
+
+    .sol-nav-Solution {
+        display: flex;
+        align-items: center;
+        color: white;
+        gap: 1em;
+
+        .sol-line1 {
+            width: 0px;
+            height: 1.75em;
+            border: 0.01em solid #565656;
+            background-color: #747474;
+        }
+
+        .sol-navbtn1 {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 0.5em;
+            height: 2.2em;
+            width: 5.8em;
+            color: #ffff;
+            font-size: 12px;
+        }
+    }
+
+    .sol-nav-menu {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5em;
+
+        li {
+            list-style: none;
+
+            a {
+                color: #565656;
+                text-decoration: none;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+                text-align: center;
+
+                .active {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .sol-nav-btns {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 12px;
+    }
+
+    .sol-navbtn1,
+    .sol-navbtn3 {
+        background: #00A650;
+    }
+
+    .sol-navbtn2,
+    .sol-navbtn3 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 3em;
+        width: 9em;
+        border-radius: 0.5em;
+        color: #ffff;
+        font-size: 12px;
+    }
+
+    .sol-navbtn2 {
+        background: #6827AB;
+    }
+}
+
+/* ============== solution main body ============ */
+.sol-main-container {
+    width: 100%;
+    display: flex;
+
+    .sol-main-left {
+        width: 75%;
+    }
+
+    .col-main-right {
+        width: 25%;
+        border: 2px solid #565656;
+    }
+}
+
+/* ========== solution Sub header ========== */
+
+.sol-subheader {
+    padding: 1em;
+    height: 3.5em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .sol-side1 {
+        display: flex;
+        gap: 0.6em;
+        font-size: 13px;
+        align-items: center;
+
+        .sol-side1-btn {
+            display: flex;
+            align-items: center;
+            width: 5em;
+            height: 1.6em;
+            background-color: #EE1C25;
+            border: none;
+            color: white;
+            padding: 0.4em;
+
+        }
+    }
+
+    .sol-side2 {
+        display: flex;
+        gap: 1.5em;
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            font-size: 11px;
+        }
+
+        .sol-side2b {
+            font-weight: bold;
+        }
+    }
+}
+
+.sol-content {
+    padding: 2em 2em;
+
+    .sol-cont-sec1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sol-cont-side1 {
+        display: flex;
+        gap: 1em;
+        align-items: center;
+        font-size: 18px;
+    }
+
+    .sol-cont-btn1 {
+        border-radius: 1em;
+        height: 2.2em;
+        width: 2.2em;
+        border: 0.001em solid #565656;
+        background-color: white;
+    }
+
+    .sol-cont-side2 {
+        display: flex;
+        gap: 0.2em;
+        font-size: 12px;
+    }
+
+    .sol-cont-sec2 {
+        padding: 2.5em 4em;
+        font-size: 16px;
+
+    }
+
+    .sol-cont-line2 {
+        width: 945px;
+        border: 1px solid #E7E7E7;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
+.sol-cont-sec3 {
+    padding: 2em;
+}
+
+.sol-quests{
+    margin-top: 2em;
+}
+.sol-quest1, .sol-quest2 {
+    display: flex;
+    justify-content: space-between;
+    height: 4em;
+    border-bottom: 1px solid #E7E7E7;
+    align-items: center;
+    .col-q1-side1 {
+        display: flex;
+        gap:0.8em;
+    }
+}
+.sol-quest3, .sol-quest4{
+    display: flex;
+    height: 4em;
+    gap:0.8em;
+    border-bottom: 1px solid #E7E7E7;
+    align-items: center;
+}
+.col-q1-side2 button{
+    display: flex;
+    align-items: center;
+    color: white;
+    border: none;
+    width: 10em;
+    height: 2.5em;
+    border-radius: 0.4em;
+}
+
+.sol-cont-sec4{
+    padding: 0 4em;
+    display: flex;
+    justify-content: space-between;
+}
+.sol-cont-sec4 button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    height: 2.5em;
+    border-radius: 0.4em;
+}
+
+

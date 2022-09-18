@@ -9,6 +9,8 @@ import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { DiscussComponent } from './discuss/discuss.component';
 import { TestboardComponent } from './testboard/testboard.component';
+import { SolutionComponent } from './solution/solution.component';
+import { SolNavComponent } from './sol-nav/sol-nav.component';
 <<<<<<< HEAD
 =======
 import { AfterExamInstructionsComponent } from './after-exam-instructions/after-exam-instructions.component';
@@ -22,6 +24,8 @@ import { AfterExamInstructionsComponent } from './after-exam-instructions/after-
     HomeComponent,
     DiscussComponent,
     TestboardComponent,
+    SolutionComponent,
+    SolNavComponent,
 <<<<<<< HEAD
 =======
     AfterExamInstructionsComponent
