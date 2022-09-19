@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
-import {BrowserAnimationsModule} from "@angular/platform-browser/animations" 
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RequestComponent } from './login/login.component';
@@ -14,7 +13,7 @@ import { SolNavComponent } from './sol-nav/sol-nav.component';
 import { AfterExamInstructionsComponent } from './after-exam-instructions/after-exam-instructions.component';
 
 @NgModule({
-  declarations: [ AppComponent, 
+  declarations: [AppComponent, 
     RequestComponent,
     NavComponent,
     HomeComponent,
@@ -26,10 +25,8 @@ import { AfterExamInstructionsComponent } from './after-exam-instructions/after-
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
     BrowserAnimationsModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
