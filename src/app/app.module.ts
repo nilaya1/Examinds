@@ -11,14 +11,10 @@ import { DiscussComponent } from './discuss/discuss.component';
 import { TestboardComponent } from './testboard/testboard.component';
 import { SolutionComponent } from './solution/solution.component';
 import { SolNavComponent } from './sol-nav/sol-nav.component';
-<<<<<<< HEAD
-=======
 import { AfterExamInstructionsComponent } from './after-exam-instructions/after-exam-instructions.component';
->>>>>>> c4cd9b8922a087eccb323c6c912dfb5286694d22
 
 @NgModule({
-  declarations: [
-    AppComponent,
+  declarations: [ AppComponent, 
     RequestComponent,
     NavComponent,
     HomeComponent,
@@ -26,11 +22,7 @@ import { AfterExamInstructionsComponent } from './after-exam-instructions/after-
     TestboardComponent,
     SolutionComponent,
     SolNavComponent,
-<<<<<<< HEAD
-=======
-    AfterExamInstructionsComponent
->>>>>>> c4cd9b8922a087eccb323c6c912dfb5286694d22
-  ],
+    AfterExamInstructionsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
